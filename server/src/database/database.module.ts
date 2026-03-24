@@ -17,7 +17,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
         autoLoadEntities: true,
         synchronize: false,
         migrations: [__dirname + '/migrations/*{.ts,.js}'],
-        migrationsRun: false,
+        migrationsRun: true,
       }),
     }),
   ],
